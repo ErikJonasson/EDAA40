@@ -1,0 +1,40 @@
+(use 'edaa40.lab3 :reload)
+(print-boards (first-moves B0-OGT))
+(use 'edaa40.lab3 :reload)
+(print-boards (first-moves B0-OGT))
+(print-boards (rand-moves B0-OGT))
+(use 'edaa40.lab3 :reload)
+(gametree-depth B0-GT
+)
+(gametree-depth B1-GT)
+(gametree-depth B2-GT)
+(gametree-depth B0-RGT)
+(gametree-depth B1-RGT)
+(gametree-depth B2-RGT)
+(gametree-count B0-OGT)
+(gametree-count B1-OGT)
+(gametree-count B2-OGT)
+(print-boards (rand-moves B0-OGT))
+(use 'edaa40.lab3 :reload)
+(print-boards (rand-moves B0-OGT))
+(print-boards (rand-moves B2-OGT))
+(print-boards (rand-moves B1-OGT))
+(use 'edaa40.lab3 :reload)
+(print-boards (rand-moves B1-OGT))
+(use 'edaa40.lab3 :reload)
+(threeinarow X [_ _ _ _ _ _ X X X]  (winning-lines 1))
+(use 'edaa40.lab3 :reload)
+(threeinarow X [_ _ _ _ _ _ X X X]  (winning-lines 1))
+winning-lines
+(winning-lines)
+(threeinarow X [_ _ _ _ _ _ X X X]  (winning-lines 1)))
+(threeinarow X [_ _ _ _ _ _ X X X]  (winning-lines 1))
+(defn- threeinarow 
+   "determines whether the specified line (a vector of three indices) is 
+   fully occupied by player p in the board b"
+  [p b ln]
+ 
+(for [v ln] (if(= (b v) p) true false))
+)
+(threeinarow X [_ _ _ _ _ _ X X X]  (winning-lines 1))
+(use 'edaa40.lab3 :reload)
